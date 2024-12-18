@@ -13,31 +13,31 @@ const products = [
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kamilica.jpg-AY73dxd19Hi9zKDdhmKDthMLgkVKWY.jpeg',
     details: {
       description: 'Naš organski čaj od kamilice je pažljivo ubran i osušen kako bi sačuvao sve ljekovite sastojke. Savršen je za opuštanje i poboljšanje kvalitete sna.',
-      price: '3.99€',
-      quantity: '20 vrećica'
+      price: '4.38€',
+      quantity: '250g'
     }
   },
   {
     id: '2',
     title: 'Šipak Čaj',
     description: 'Čaj od divljeg šipka',
-    code: 'SC-002',
+    code: 'ČŠ-0002',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%C5%A1ipak.jpg-fssXIazhPWJZOfwbDYJYLv7vWfE9nq.jpeg',
     details: {
       description: 'Čaj od divljeg šipka bogat je vitaminom C i antioksidansima. Idealan je za jačanje imuniteta i poboljšanje općeg zdravlja.',
-      price: '4.50€',
-      quantity: '50g'
+      price: '2.10€',
+      quantity: '250g'
     }
   },
   {
     id: '3',
     title: 'Granola od lješnjaka',
     description: 'Hrskava granola s lješnjacima',
-    code: 'GL-003',
+    code: 'GR-0009',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Hazelnut%20granola.jpg-fiVupuMgPgvDiRINoG1FRP18ORatww.jpeg',
     details: {
       description: 'Naša granola od lješnjaka je savršen spoj hrskavog zobanog brašna i svježe pečenih lješnjaka. Idealna je za zdrav i ukusan početak dana.',
-      price: '6.99€',
+      price: '3.50€',
       quantity: '350g'
     }
   },
@@ -45,23 +45,23 @@ const products = [
     id: '4',
     title: 'Liker od lješnjaka',
     description: 'Domaći liker od lješnjaka',
-    code: 'LL-004',
+    code: 'LL-0010',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/liker.jpg-JPBcEXgJqytjN7Py8L3dVTVU8rUpoD.jpeg',
     details: {
       description: 'Naš domaći liker od lješnjaka napravljen je po tradicionalnoj recepturi. Savršen je kao digestiv ili dodatak desertima.',
-      price: '15.99€',
-      quantity: '0.5L'
+      price: '3.50€',
+      quantity: '500ml'
     }
   },
   {
     id: '5',
     title: 'Lješnjakovo ulje',
     description: 'Hladno prešano ulje od lješnjaka',
-    code: 'LU-005',
+    code: 'LJU-0006',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/oil.jpg-WBXkURx1UlBnDVI2I1WX1uReYOoh8a.jpeg',
     details: {
       description: 'Naše hladno prešano ulje od lješnjaka zadržava sve nutritivne vrijednosti i karakterističan okus. Idealno je za salate i kao dodatak jelima.',
-      price: '9.99€',
+      price: '12.25€',
       quantity: '250ml'
     }
   },
@@ -69,11 +69,11 @@ const products = [
     id: '6',
     title: 'Lješnjakova jezgra',
     description: 'Svježe očišćeni lješnjaci',
-    code: 'LJ-006',
+    code: 'LJE-0004',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kernel.jpg-vLYuBD3Hc13bSBQ8g3FlqZfA65nsJA.jpeg',
     details: {
       description: 'Naši svježe očišćeni lješnjaci su vrhunske kvalitete, idealni za grickanje ili kao dodatak u kulinarstvu.',
-      price: '7.99€',
+      price: '5.25€',
       quantity: '500g'
     }
   },
@@ -81,11 +81,11 @@ const products = [
     id: '7',
     title: 'Maslac od lješnjaka',
     description: 'Kremasti maslac od prženih lješnjaka',
-    code: 'ML-007',
+    code: 'MLJ-0007',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/maslac.jpg-Ri1AhJPgiAt9qz1ZQObx5x8h4VEyUI.jpeg',
     details: {
       description: 'Naš maslac od lješnjaka je napravljen od svježe prženih lješnjaka, bez dodataka šećera ili ulja. Savršen je kao namaz ili dodatak smoothiejima.',
-      price: '8.99€',
+      price: '3.15€',
       quantity: '100g'
     }
   },
@@ -93,7 +93,7 @@ const products = [
     id: '8',
     title: 'Pekmez od šipka',
     description: 'Domaći pekmez od divljeg šipka',
-    code: 'PS-008',
+    code: 'PŠ-0008',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jam.jpg-yJsEzoW8pd8NWECVMT3ShiV9H14Au4.jpeg',
     details: {
       description: 'Naš domaći pekmez od divljeg šipka je pun vitamina i minerala. Savršen je kao namaz ili dodatak jogurtu i žitaricama.',
@@ -105,11 +105,11 @@ const products = [
     id: '9',
     title: 'Brašno od lješnjaka',
     description: 'Fino mljeveno brašno od lješnjaka',
-    code: 'BL-009',
+    code: 'LJB-0005',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/flour.jpg-Py1dtQ64CL1cVcvPxrkGRhrlRv78Tf.jpeg',
     details: {
       description: 'Naše brašno od lješnjaka je fino mljeveno i savršeno za pripremu bezglutenskih slastica i kao dodatak smoothiejima.',
-      price: '11.99€',
+      price: '2.10€',
       quantity: '250g'
     }
   },
@@ -117,12 +117,12 @@ const products = [
     id: '10',
     title: 'Čaj od šipka i kamilice',
     description: 'Mješavina čaja od divljeg šipka i kamilice',
-    code: 'CSK-010',
+    code: 'MIX-0003',
     image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/rosehip%20and%20chamomile%20tea.jpg-cY7P085xP3sZ97pnoXvz7StLmX5Wg7.jpeg',
     details: {
       description: 'Ova jedinstvena mješavina čaja kombinira blagodati divljeg šipka i umirujuća svojstva kamilice. Idealan za opuštanje i jačanje imuniteta.',
-      price: '5.50€',
-      quantity: '20 vrećica'
+      price: '3.50€',
+      quantity: '250g'
     }
   }
 ]
